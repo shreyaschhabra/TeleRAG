@@ -1,0 +1,28 @@
+# ============================================================
+# 3GPP RAG Assistant — Dependency Manifest
+# ============================================================
+# Install:  pip install -r requirements.txt
+# ============================================================
+
+# --- Core LangChain Framework ---
+langchain>=0.2.0
+langchain-core>=0.2.0
+langchain-community>=0.2.0
+langchain-google-genai>=1.0.0
+
+# --- Vector Database (local, persistent) ---
+chromadb>=0.4.22
+
+# --- Embeddings (local HuggingFace model) ---
+langchain-huggingface>=1.0.0
+sentence-transformers>=2.2.2
+
+# --- Text Splitting ---
+# (included in langchain, listed for clarity)
+
+# --- Google Generative AI SDK ---
+google-generativeai>=0.5.0
+
+# --- Utilities ---
+python-dotenv>=1.0.0
+tqdm>=4.66.0

@@ -1,0 +1,6 @@
+.env
+__pycache__/
+chroma_db/
+*.json
+*.csv
+.DS_Store
